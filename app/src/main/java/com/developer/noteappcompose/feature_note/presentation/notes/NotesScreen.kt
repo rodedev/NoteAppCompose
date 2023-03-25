@@ -1,4 +1,4 @@
-package com.developer.noteappcompose.feature_note.presentarion.notes
+package com.developer.noteappcompose.feature_note.presentation.notes
 
 import androidx.compose.animation.*
 import androidx.compose.foundation.clickable
@@ -16,9 +16,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
-import com.developer.noteappcompose.feature_note.presentarion.notes.components.NoteItem
-import com.developer.noteappcompose.feature_note.presentarion.notes.components.OrderSection
-import com.developer.noteappcompose.feature_note.presentarion.util.Screen
+import com.developer.noteappcompose.feature_note.presentation.notes.components.NoteItem
+import com.developer.noteappcompose.feature_note.presentation.notes.components.OrderSection
+import com.developer.noteappcompose.feature_note.presentation.util.Screen
 import kotlinx.coroutines.launch
 
 @Composable

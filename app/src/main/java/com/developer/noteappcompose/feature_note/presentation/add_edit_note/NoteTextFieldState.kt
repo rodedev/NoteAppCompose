@@ -1,4 +1,4 @@
-package com.developer.noteappcompose.feature_note.presentarion.add_edit_note
+package com.developer.noteappcompose.feature_note.presentation.add_edit_note
 
 data class NoteTextFieldState(
     val text: String = "",

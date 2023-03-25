@@ -1,4 +1,4 @@
-package com.developer.noteappcompose.feature_note.presentarion.notes
+package com.developer.noteappcompose.feature_note.presentation.notes
 
 import com.developer.noteappcompose.feature_note.domain.model.Note
 import com.developer.noteappcompose.feature_note.domain.util.NoteOrder

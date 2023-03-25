@@ -1,4 +1,4 @@
-package com.developer.noteappcompose.feature_note.presentarion
+package com.developer.noteappcompose.feature_note.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -12,9 +12,9 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.developer.noteappcompose.feature_note.presentarion.add_edit_note.AddEditNoteScreen
-import com.developer.noteappcompose.feature_note.presentarion.notes.NotesScreen
-import com.developer.noteappcompose.feature_note.presentarion.util.Screen
+import com.developer.noteappcompose.feature_note.presentation.add_edit_note.AddEditNoteScreen
+import com.developer.noteappcompose.feature_note.presentation.notes.NotesScreen
+import com.developer.noteappcompose.feature_note.presentation.util.Screen
 import com.developer.noteappcompose.ui.theme.NoteAppComposeTheme
 import dagger.hilt.android.AndroidEntryPoint
 

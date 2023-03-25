@@ -1,4 +1,4 @@
-package com.developer.noteappcompose.feature_note.presentarion.notes
+package com.developer.noteappcompose.feature_note.presentation.notes
 
 
 import androidx.compose.runtime.State

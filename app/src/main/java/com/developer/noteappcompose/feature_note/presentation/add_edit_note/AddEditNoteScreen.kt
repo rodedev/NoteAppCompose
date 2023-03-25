@@ -1,4 +1,4 @@
-package com.developer.noteappcompose.feature_note.presentarion.add_edit_note
+package com.developer.noteappcompose.feature_note.presentation.add_edit_note
 
 import androidx.compose.animation.Animatable
 import androidx.compose.animation.core.tween
@@ -23,7 +23,7 @@ import androidx.compose.ui.unit.dp
 import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.NavController
 import com.developer.noteappcompose.feature_note.domain.model.Note
-import com.developer.noteappcompose.feature_note.presentarion.add_edit_note.components.TransparentHintTextField
+import com.developer.noteappcompose.feature_note.presentation.add_edit_note.components.TransparentHintTextField
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
