@@ -59,7 +59,6 @@ class AddEditNoteViewModel @Inject constructor(
                             isHintVisible = false
                         )
                         _noteColor.value = note.color
-
                     }
                 }
             }
@@ -109,7 +108,7 @@ class AddEditNoteViewModel @Inject constructor(
                         _eventFlow.emit(UiEvent.SaveNote)
                     } catch (e: InvalidNoteException) {
                         _eventFlow.emit(
-                            UiEvent.ShowSnackbar(
+                            UiEvent.ShowSnackBar(
                                 message = e.message ?: "Couldn't save note"
                             )
                         )
@@ -121,7 +120,7 @@ class AddEditNoteViewModel @Inject constructor(
 
 
     sealed class UiEvent {
-        data class ShowSnackbar(val message: String) : UiEvent()
+        data class ShowSnackBar(val message: String) : UiEvent()
         object SaveNote : UiEvent()
     }
 
